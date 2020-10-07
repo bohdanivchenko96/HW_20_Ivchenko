@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="upper_header">
+          <div class="upper_header_container">
+            <ul class="header_list">
+              <li class="header_list_images">
+                <img src="images/folder.jpg" alt="folder images" />
+              </li>
+              <li class="header_list_text">
+                <p>
+                  Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;))
+                </p>
+              </li>
+              <li class="header_list_images">
+                <img src="images/folder.jpg" alt="folder images" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="center_header"></div>
+        <div class="down_header">
+          <p>Необходимо выполнить вход в систему</p>
+        </div>
+      </header>
+      <body>
+        <div class="container_body">
+          <div class="side"></div>
+          <div class="central_body">
+            <div class="login_container">
+              <div class="login_form_container">
+                <div class="login_form_login">
+                  <div class="login_form_label">
+                    <label for="uname">Логин: </label>
+                  </div>
+                  <div class="login_form_button">
+                    <input
+                      type="text"
+                      placeholder="Enter Username"
+                      name="uname"
+                    />
+                  </div>
+                </div>
+                <div class="login_form_login">
+                  <div class="login_form_label">
+                    <label for="psw">Пароль:</label>
+                  </div>
+                  <div class="login_form_button">
+                    <input
+                      type="password"
+                      placeholder="Enter Password"
+                      name="psw"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="login_form_login">
+                  <div class="login_form_label">
+                    <label> Запомнить:</label>
+                  </div>
+                  <div class="login_form_button">
+                    <input type="checkbox" checked="checked" name="remember" />
+                  </div>
+                </div>
+                <div class="login_form_login">
+                  <div class="login_form_label"></div>
+                  <div class="login_form_button">
+                    <button
+                      type="submit"
+                      onclick="location.href='logged_user.html'"
+                    >
+                      Войти
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side">
+            <ul>
+              <li><b>Статистика</b></li>
+              <li>Пользователей: 123</li>
+              <li>Файлов: 1234</li>
+              <li>Обьем: 2345 Mb</li>
+              <li>Обьем / польз.: 45 Mb</li>
+            </ul>
+          </div>
+        </div>
+      </body>
+      <footer>
+        <p>&copy;2020, HILLEL Training</p>
+      </footer>
+    </div>
+  </body>
+</html>

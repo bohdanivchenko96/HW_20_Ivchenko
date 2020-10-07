@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="upper_header">
+          <div class="upper_header_container">
+            <ul class="header_list">
+              <li class="header_list_images">
+                <img src="images/folder.jpg" alt="folder images" />
+              </li>
+              <li class="header_list_text">
+                <p>
+                  Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;))
+                </p>
+              </li>
+              <li class="header_list_images">
+                <img src="images/folder.jpg" alt="folder images" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="center_header"></div>
+        <div class="down_header">
+          <p>
+            Вы вошли в систему как <b>Иванов Иван Иванович. </b
+            ><a href="index.html">Выйти</a>
+          </p>
+        </div>
+      </header>
+      <body>
+        <div class="container_body">
+          <div class="side">
+            <ul>
+              <li><b>Можно загружать:</b></li>
+              <li>ZIP: (до 20 Mb);</li>
+              <li>DOCX (до 40 Mb);</li>
+              <li>PPTX (до 50 Mb);</li>
+              <li><b>Использовано</b></li>
+              <li>27.34 Mb из 100.00 Mb</li>
+            </ul>
+          </div>
+          <div class="central_body">
+            <table class="table_sort">
+                <thead>
+                    <tr>
+                        <th class="table_head_one">Файл</th>
+                        <th class="table_head_two">Размер(Kb)</th>
+                        <th class="table_head_three">Дата и Время</th>
+                        <th class="table_head_three">Удалить</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_column"><a href="#">install.zip</a></td>
+                        <td>232.23</td>
+                        <td>2011-11-11 18:01:45</td>
+                        <td><a href="#">Удалить</a</td>
+                    </tr>
+                    <tr>
+                        <td class="first_column"><a href="#">idea.exe</a></td>
+                        <td>332.23</td>
+                        <td>2015-11-11 11:01:45</td>
+                        <td><a href="#">Удалить</a</td>
+                    </tr><tr>
+                        <td class="first_column"><a href="#">какой то файл.zip</a></td>
+                        <td>532.23</td>
+                        <td>2011-11-11 23:01:45</td>
+                        <td><a href="#">Удалить</a</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="login_container">
+                <p>Загрузить новый файл:</p>
+                    <button class="download_button">Выбрать</button>
+                    <input type="text" class="download_input">
+                    <button class="download_button">Загрузить</button>                
+            </div>
+            <div class="login_container">
+                <p>Запросить с удаленного сервера:</p>                    
+                    <input type="text" class="request_input">
+                    <div class="output_box">
+                    <label for="remember">Поместить в хранилище:</label>
+                    <input type="checkbox" checked="checked" name="remember"/>
+                    </div>
+                    <button class="download_button">Запросить</button>                
+            </div>
+          </div>
+          <div class="side">
+            <ul>
+              <li><b>Статистика</b></li>
+              <li>Пользователей: 123</li>
+              <li>Файлов: 1234</li>
+              <li>Обьем: 2345 Mb</li>
+              <li>Обьем / польз.: 45 Mb</li>
+            </ul>
+          </div>
+        </div>
+      </body>
+      <footer>
+        <p>&copy;2020, HILLEL Training</p>
+      </footer>
+    </div>
+  </body>
+</html>
